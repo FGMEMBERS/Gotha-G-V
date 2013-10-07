@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+  
+  <path>panel.ac</path>
+  
+  <animation>
+    <object-name>panel</object-name>
+  </animation>
+
+  <!-- COMPASS -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/compass/compass.xml</path>
+    <offsets>
+      <x-m>  0.29241 </x-m>
+      <y-m> -0.25750 </y-m>
+      <z-m> -0.13173 </z-m>
+    </offsets>
+  </model>
+
+  <!-- ASI -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/asi/asi.xml</path>
+    <offsets>
+      <x-m>  0.13415 </x-m>
+      <y-m> -0.24583 </y-m>
+      <z-m> -0.03506 </z-m>
+      <heading-deg> 90 </heading-deg>
+    </offsets>
+  </model>
+
+  <!-- SELECTORS -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/selector/selector.xml</path>
+    <offsets>
+      <x-m> -0.00770 </x-m>
+      <y-m>  0.26917 </y-m>
+      <z-m> -0.01580 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/selector/selector.xml</path>
+    <offsets>
+      <x-m> -0.00770 </x-m>
+      <y-m>  0.26917 </y-m>
+      <z-m> -0.12580 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/selector/selector.xml</path>
+    <offsets>
+      <x-m> -0.00770 </x-m>
+      <y-m>  0.15917 </y-m>
+      <z-m> -0.12580 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/selector/selector.xml</path>
+    <offsets>
+      <x-m> -0.00770 </x-m>
+      <y-m> -0.09083 </y-m>
+      <z-m> -0.12580 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/selector/selector.xml</path>
+    <offsets>
+      <x-m> -0.00770 </x-m>
+      <y-m> -0.20083 </y-m>
+      <z-m> -0.12580 </z-m>
+    </offsets>
+  </model>
+
+  <!-- AIR TEMP -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/air-temp/airtemp.xml</path>
+    <offsets>
+      <x-m> -0.00600 </x-m>
+      <y-m>  0.16000 </y-m>
+      <z-m> -0.01580 </z-m>
+    </offsets>
+  </model>
+
+  <!-- MAGENTOS -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/magnetos/magnetos.xml</path>
+    <offsets>
+      <x-m> -0.00127 </x-m>
+      <y-m>  0.03217 </y-m>
+      <z-m> -0.12580 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/mag-switch/mag-switch.xml</path>
+    <offsets>
+      <x-m> -0.00127 </x-m>
+      <y-m> -0.21096 </y-m>
+      <z-m> -0.03353 </z-m>
+    </offsets>
+  </model>
+
+  <!-- RPM -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/rpm/rpm.xml</path>
+    <offsets>
+      <x-m> -0.00150 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m>  0.03000 </z-m>
+    </offsets>
+  </model>
+
+  <!-- MAN -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/man/manL.xml</path>
+    <offsets>
+      <x-m>  0.00200 </x-m>
+      <y-m> -0.12900 </y-m>
+      <z-m>  0.04600 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/man/manR.xml</path>
+    <offsets>
+      <x-m>  0.00200 </x-m>
+      <y-m> -0.21500 </y-m>
+      <z-m>  0.04600 </z-m>
+    </offsets>
+  </model>
+
+  <!-- BANK INDICATOR -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/bank/bank.xml</path>
+    <offsets>
+      <x-m> -0.00128 </x-m>
+      <y-m> -0.12492 </y-m>
+      <z-m> -0.03196 </z-m>
+    </offsets>
+  </model>
+
+  <!-- FUEL PUMP -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/fuel-pump/fuel-pump.xml</path>
+    <offsets>
+      <x-m>  0.13711 </x-m>
+      <y-m>  0.30218 </y-m>
+      <z-m> -0.17620 </z-m>
+      <pitch-deg> 70 </pitch-deg>
+    </offsets>
+  </model>
+
+</PropertyList>

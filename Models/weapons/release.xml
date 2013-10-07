@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <submodel> 
+    <name>bombe release</name>
+    <model>Aircraft/Gotha-G-V/Models/weapons/bomb.xml</model>
+    <trigger>controls/signal</trigger>
+    <speed-prop>
+      <property>/velocities/airspeed-kt</property>
+    </speed-prop>
+    <repeat>true</repeat>
+    <delay>0.2</delay>
+    <count>7</count>
+    <x-offset> -9.7480 </x-offset> <!-- -3.03668 m -->
+    <y-offset>  0.0000 </y-offset> <!--  0.00000 m     --> 
+    <z-offset> -9.8950 </z-offset> <!-- -0.94192 m --> 
+    <yaw-offset>0.0</yaw-offset>
+    <pitch-offset>0.0</pitch-offset>
+    <cd>0.295</cd>
+    <eda>100</eda>
+    <weight>230</weight>
+    <wind>false</wind>
+    <buoyancy>0</buoyancy>
+    <life>1000</life>
+    <collision>true</collision>
+    <collision-report>sim/ai/aircraft/collision/bullet</collision-report>
+    <impact>true</impact>
+    <impact-report>sim/ai/aircraft/impact/bullet</impact-report>
+    <submodel-path>Aircraft/Gotha-G-V/Models/weapons/explosion.xml</submodel-path>
+  </submodel>
+
+</PropertyList>
