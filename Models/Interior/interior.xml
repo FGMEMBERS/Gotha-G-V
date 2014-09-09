@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>contour</object-name>
+    <object-name>seat</object-name>
+    <object-name>cuve</object-name>
+    <object-name>inttour</object-name>
+    <object-name>structure</object-name>
+    
+    <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>noshadow</type>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+    <object-name>intvitres</object-name>
+  </effect>
+
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -4.04435 </x-m>
+      <y-m> -0.17981 </y-m>
+      <z-m> -0.09947 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Planche de bord -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -4.45341 </x-m>
+      <y-m> -0.28450 </y-m>
+      <z-m>  0.38773 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Yoke -->
+  <model>
+    <path>Aircraft/Gotha-G-V/Models/Interior/Panel/Instruments/yoke/yoke.xml</path>
+    <offsets>
+      <x-m> -4.25422 </x-m>
+      <y-m> -0.20815 </y-m>
+      <z-m> -0.31153 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Tireur avant
+  <model>
+    <name>Gunner1</name>
+    <path>Aircraft/Gotha-G-V/Models/Pilot/debout.xml</path>
+    <offsets>
+      <x-m> -5.01973 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m>  0.24781 </z-m>
+    </offsets>
+  </model>
+  
+  <animation>
+    <type>select</type>
+    <object-name>Gunner1</object-name>
+    <condition>
+      <property>/sim/model/show-gunner1</property>
+    </condition>
+  </animation>
+  -->
+  <!-- Tireur arrière
+  <model>
+    <name>Gunner2</name>
+    <path>Aircraft/Gotha-G-V/Models/Pilot/debout.xml</path>
+    <offsets>
+      <x-m> -0.26203 </x-m>
+      <y-m> -0.00000 </y-m>
+      <z-m>  1.37781 </z-m>
+      <heading-deg> 180 </heading-deg>
+    </offsets>
+  </model>
+
+  <animation>
+    <type>select</type>
+    <object-name>Gunner2</object-name>
+    <condition>
+      <property>/sim/model/show-gunner2</property>
+    </condition>
+  </animation>
+  -->
+
+</PropertyList>

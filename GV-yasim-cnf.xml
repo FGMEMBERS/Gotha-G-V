@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList include="GV-base.xml">
+
+  <sim>
+
+    <description>Gotha G V (YASim)</description>
+    <author>Emmanuel BARANGER (3D/FDM)</author>
+    <flight-model archive="y">yasim</flight-model>
+    <aero archive="y">GV-yasim</aero>
+
+  </sim>
+
+</PropertyList>
